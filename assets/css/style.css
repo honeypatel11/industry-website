@@ -181,10 +181,6 @@ span {
     border-radius: 5px 5px 0px 0px;
 }
 
-.video-section {
-    position: relative;
-}
-
 .video-section::after {
     height: 100%;
     width: 100%;
@@ -197,7 +193,7 @@ span {
 }
 
 .content  {
-    background-color: #fff;
+   
     padding: 8px;
     border-radius: 0px 0px 5px 5px;
     background-color: #010d14;
@@ -237,4 +233,98 @@ span {
 .circle-1{
     height: 60px;
     width: 60px;
+}
+.news{
+    background-color: #031321;
+}
+.content-1{
+    background-color: #01020a;
+    padding: 10px 7px;
+}
+.roboto h3{
+    font-family: "Roboto", sans-serif; 
+}
+.button-more3{
+    background-color: #e8271e;
+    padding: 10px 30px;
+    color: white;
+    font-family: "Roboto", sans-serif; 
+}
+.scale{
+    transition: 0.3s all linear;
+    cursor: pointer;
+   
+}
+.scale:hover{
+    transform: scale(1.1);
+
+}
+.swiper-slide{
+    overflow: hidden;
+}
+.fa-angle-right{
+    transition: .2s all linear;
+}
+.btn-1:hover .fa-angle-right{
+    transform: translateX(5px)
+}
+.p-55{
+    padding: 55px 0;
+}
+.company-img{
+    background-image: url('../images/in3\ \(1\).jpg');
+    width: 100%;
+    height: 300px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.company-img::after{
+    content: "";
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    top: 0; 
+    background-color: #00070f;
+    opacity: .8;
+}
+.bg-img{
+    background-image: url('../images/in4\ \(1\).jpg');
+    height: 400px;
+}
+.icon-1{
+    transition: 0.3s all linear;
+    cursor: pointer;
+    color: white;
+}
+
+i:hover{
+    color: red;
+    cursor: pointer;
+}
+.fa-chevron-right{
+    transition: .2s all linear;
+}
+.footer-name{
+    color: white;   
+}
+.footer-name:hover{
+    color: #e8271e;
+    cursor: pointer;
+    transform: translateX(5px)
+}
+.bg-blue{
+    background-color: #051126;
+    box-shadow: none !important;
+}
+
+.dropdown-list{
+    padding: 20px;
+    position: absolute;
+    bottom: -90px;
+    display: none;
+}
+.page:hover .dropdown-list{
+    display: block !important;
 }

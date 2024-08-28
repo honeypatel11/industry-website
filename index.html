@@ -21,7 +21,7 @@
 <body>
 
     <!-- header section -->
-    <header class=" position-sticky z-3 top-0">
+    <header class="position-sticky z-3 top-0">
         <div class="container">
             <nav class="navbar align-items-center navbar-expand-lg bg-black ">
                 <div class="">
@@ -40,7 +40,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white fs-5 fw-bold" href="about.html">About</a>
+                                <a class="nav-link text-white fs-5 fw-bold" href="./about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <div class="d-flex">
@@ -48,10 +48,14 @@
                                     <i class="fa-solid fa-plus mt-3 text-white  fw-bold"></i>
                                 </div>
                             </li>
-                            <li class="nav-item">
-                                <div class="d-flex">
+                            <li class="nav-item page">
+                                <div class="d-flex position-relative">
                                     <a class="nav-link text-white fs-5 fw-bold" href="pages.html">Pages</a>
                                     <i class="fa-solid fa-plus mt-3  text-white fw-bold"></i>
+                                    <ul class="bg-danger dropdown-list">
+                                        <li class="text-white">testimonials</li>
+                                        <li class="text-white">faq</li>
+                                    </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -102,6 +106,7 @@
                     <div class="d-flex justify-content-between align-content-center">
                         <a class="nav-link text-black fs-6 fw-bold" href="#">Pages</a>
                         <i class="fa-light fa-plus mt-2 text-black fw-bold"></i>
+                       
                     </div>
                 </li>
                 <li class="nav-item">
@@ -350,16 +355,54 @@
             </div>
         </div>
         <!-- latest section -->
-        <section class="position-relative">
-            <div class="video-section">
-                <video class="" width="100%" autoplay muted playsinline loop
-                    src="https://rstheme.com/products/wordpress/konstruk/wp-content/uploads/2022/04/indrustris.mp4"
-                    style="display: block;">
-                   
-                   
-                </video>
-               
-                
+        <section class="position-relative video-section">
+            <video class="position-absolute" height="100%" width="100%" autoplay muted playsinline loop
+                src="https://rstheme.com/products/wordpress/konstruk/wp-content/uploads/2022/04/indrustris.mp4"
+                style="display: block;">
+            </video>
+            <div class="">
+                <div class="latest p-55 position-relative z-2">
+                    <div class="container">
+                        <p class="text-danger fs-6 text-center fw-bold lh-lg">Latest Projects</p>
+                        <p class="font-size-1 text-white text-center fw-bold lh-sm">Latest completed and running <br>
+                            awesome <span>projects.
+                            </span></p>
+                        <div class="row gy-5 mt-4">
+                            <div class="col-4 ">
+                                <div>
+                                    <img src="./assets/images/indrusti_1.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./assets/images/indrusti_2.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./assets/images/indrusti_03.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./assets/images/indrusti_4.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./assets/images/indrusti_5.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div>
+                                    <img src="./assets/images/indrusti_6.jpg" alt="" width="350px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             </div>
 
         </section>
@@ -483,14 +526,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </section>
         <!-- testimonials section -->
         <section class="p-100 testimonials-img">
-
             <div>
                 <p class="text-danger fs-6 text-center">Testimonials</p>
                 <h2 class="font-size-1 text-white text-center fw-bold lh-lg font-style">Customers <span>reviews..
@@ -654,13 +694,270 @@
                             </div>
                         </div>
                     </div>
-                   
+                </div>
+            </div>
+        </section>
+        <!-- news section -->
+        <section class="news p-100">
+            <div class="container">
+                <div class="">
+                    <p class="text-danger fs-6 text-center">NEWS</p>
+                    <p class="font-size-1 text-white text-center fw-bold lh-lg">Latest updates and <span>news.
+                        </span></p>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide pt-5">
+                            <div class="scale">
+                                <img src="./assets/images/blog2-600x335.jpg" alt="" width="410px">
+                            </div>
+                            <div class="content-1">
+                                <div class="container">
+                                    <div class="d-flex gap-3 mt-4">
+                                        <span>
+                                            <i class="fa-regular fa-user fs-6 "></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Admin</p>
+                                        <span>
+                                            <i class="fa fa-book fs-6"></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Residential</p>
+                                    </div>
+                                    <div class="roboto mt-3">
+                                        <h3 class="text-white fs-5 lh-sm fw-bold">This is another massive sites <br>
+                                            with a ton
+                                            of information</h3>
+                                    </div>
+
+                                    <button
+                                        class="border-0 fs-6  button-more3 mt-3 d-flex align-items-center gap-3 justify-content-between btn-1">View
+                                        More
+                                        <i class="fa fa fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pt-5">
+                            <div class="scale">
+                                <img src="./assets/images/blog1-600x335.jpg" alt="" width="410px">
+                            </div>
+                            <div class="content-1">
+                                <div class="container">
+                                    <div class="d-flex gap-3 mt-4">
+                                        <span>
+                                            <i class="fa-regular fa-user fs-6 "></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Admin</p>
+                                        <span>
+                                            <i class="fa fa-book fs-6"></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Residential</p>
+                                    </div>
+                                    <div class="roboto mt-3">
+                                        <h3 class="text-white fs-5 lh-sm fw-bold">This is another massive sites <br>
+                                            with a ton
+                                            of information</h3>
+                                    </div>
+                                    <button
+                                        class="border-0 fs-6  button-more3 mt-3 d-flex align-items-center gap-3 justify-content-between btn-1">View
+                                        More
+                                        <i class="fa fa fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pt-5">
+                            <div class="scale">
+                                <img src="./assets/images/blog4-600x335.jpg" alt="" width="410px">
+                            </div>
+                            <div class="content-1">
+                                <div class="container">
+                                    <div class="d-flex gap-3 mt-4">
+                                        <span>
+                                            <i class="fa-regular fa-user fs-6 "></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Admin</p>
+                                        <span>
+                                            <i class="fa fa-book fs-6"></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Residential</p>
+                                    </div>
+                                    <div class="roboto mt-3">
+                                        <h3 class="text-white fs-5 lh-sm fw-bold">This is another massive sites <br>
+                                            with a ton
+                                            of information</h3>
+                                    </div>
+                                    <button
+                                        class="border-0 fs-6  button-more3 mt-3 d-flex align-items-center gap-3 justify-content-between btn-1">View
+                                        More
+                                        <i class="fa fa fa-angle-right "></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide pt-5">
+                            <div class="scale">
+                                <img src="./assets/images/blog3-600x335.jpg" alt="" width="410px">
+                            </div>
+                            <div class="content-1">
+                                <div class="container">
+                                    <div class="d-flex gap-3 mt-4">
+                                        <span>
+                                            <i class="fa-regular fa-user fs-6 "></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Admin</p>
+                                        <span>
+                                            <i class="fa fa-book fs-6"></i>
+                                        </span>
+                                        <p class="text-white fs-6 fw-bold">Residential</p>
+                                    </div>
+                                    <div class="roboto mt-3">
+                                        <h3 class="text-white fs-5 lh-sm fw-bold">This is another massive sites <br>
+                                            with a ton
+                                            of information</h3>
+                                    </div>
+                                    <button
+                                        class="border-0 fs-6  button-more3 mt-3 d-flex align-items-center gap-3 justify-content-between btn-1">View
+                                        More
+                                        <i class="fa fa fa-angle-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        <!-- company-name section -->
+        <!-- <section class="p-100 company-img position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class=" z-3 position-absolute d-flex gap-4">
+                        <div class="col-3">
+                            <div>
+                                <img src="./assets/images/partner_02.png" alt="" width="100px">
+                                <img src="./assets/images/partner_02.png" alt="" width="100px">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div>
+                                <img src="./assets/images/partner_08.png" alt="" width="100px">
+                                <img src="./assets/images/partner_08.png" alt="" width="100px">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div>
+                                <img src="./assets/images/partner_01.png" alt="" width="100px">
+                                <img src="./assets/images/partner_01.png" alt="" width="100px">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-        </section>
+        </section> -->
     </main>
+    <!-- footer section -->
+    <footer class="bg-img p-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <img src="./assets/images/logo_lp (1).png" alt="" width="150px">
+                        </div>
+                        <div>
+                            <p class="text-white mt-4 fs-6">Lorem ipsum dolor sit amet, consec <br> tetur adipiscing elit,
+                                sed do eiusmod <br> tempor in cididunt ut labore.</p>
+                            <p class="text-white mt-4 fs-6">Opening Hours : Monday – Sat: 9am <br> to 6pm</p>
+                        </div>
+                        <div class="d-flex gap-3 mt-4 ">
+                            <i class="fa-brands fa-facebook-f fs-5 icon-1"></i>
+                            <i class="fa-brands fa-twitter fs-5 icon-1"></i>
+                            <i class="fa-brands fa-pinterest-p fs-5 icon-1"></i>
+                            <i class="fa-brands fa-instagram fs-5 icon-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">CONTACT INFO</p>
+                        </div>
+                        <div class=" mt-4 ">
+                            <div class="gap-2 d-flex">
+                                <i class="fa-solid fa-location-dot text-danger fs-4 mt-2"></i>
+                                <p class="text-white fs-6">Ta-134/A, Gulshan Badda Link <br> Rd, Dhaka</p>
+                            </div>
+                            <div class="gap-2 d-flex mt-4">
+                                <i class="fa-solid fa-phone text-danger fs-4 mt-2"></i></i>
+                                <p class="text-white fs-6">(+880)155 69569 365
+                                    <br> (+880)155 69569 366
+                                </p>
+                            </div>
+                            <div class="gap-2 d-flex mt-4">
+                                <i class="fa-regular fa-envelope  text-danger fs-4 mt-2"></i>
+                                <p class="text-white fs-6">support@rstheme.com
+                                    <br>infoname@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="">
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">OUR SERVICES</p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name">General Construction</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Property Maintenence</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Project Management</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Virtual design & Build</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Preconstruction</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="icon-2 fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Design Build</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">NEWSLETTER</p>
+                        </div>
+                        <p class="text-white fs-6 mt-3">Tetur adipiscing elit, sed do eiusmod <br> tempor in cididunt ut
+                            labore.</p>
+
+                        <input class="px-3 py-2 rounded-0 fs-6 text-white mt-3 bg-blue border-0"
+                            placeholder="enter your email">
+                        <button class="text-white  border-0  button-more mt-2 px-5 py-2">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
