@@ -136,6 +136,8 @@ p {
 span {
     color: red;
     font-style: italic;
+    right: 50px;
+    top: 50px;
 }
 .icon{
     align-items: center;
@@ -209,4 +211,30 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.testimonials-img{
+    background-image: url('../images/testimonials.jpg');
+    width: 100%;
+   
+  
+}
+.testimonials-img p{
+    font-family: "Roboto", sans-serif;
+    margin:  0px 0px 20px 14px;
+}
+.testimonials-img .font-style{
+    font-family: "Playfair Display", serif;
+    margin:  0px 0px 26px;
+}
+.p-10{
+    padding: 20px 40px;
+    background-color: #01020a;
+    opacity: .8;
+}
+.test-name h6{
+    font-family: "Roboto", sans-serif;
+}
+.circle-1{
+    height: 60px;
+    width: 60px;
 }
