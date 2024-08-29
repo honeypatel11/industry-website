@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/counter.css">
+    <!-- swipper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="position-sticky z-3 top-0">
+        <div class="container">
+            <nav class="navbar align-items-center navbar-expand-lg bg-black ">
+                <div class="">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/images/logo_lp.png" class="img-fluid" width="190px" alt="">
+                    </a>
+                </div>
+                <div>
+                    <div class="collapse  navbar-collapse" id="navbarSupportedContent ">
+                        <ul class="navbar-nav m-0 p-0  gap-4">
+                            <li class="nav-item d-flex text-white">
+                                <div class="d-flex">
+                                    <a class="nav-link active text-danger fs-5 fw-bold " aria-current="page"
+                                        href="index.html">Home</a>
+                                   
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 fw-bold color" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="d-flex">
+                                    <a class="nav-link text-white fs-5 fw-bold color" href="services.html">Services</a>
+                                   
+                                </div>
+                            </li>
+                            <li class="nav-item page">
+                                <div class="d-flex position-relative">
+                                    <a class="nav-link text-white fs-5 fw-bold color" href="pages.html">Pages</a>
+                                   
+                                    <ul class="bg-danger dropdown-list">
+                                        <li class="text-white fs-6"><a href="./testimonials.html" class="text-white">testimonials</a></li>
+                                        <li class="text-white fs-6"><a href="./faq.html" class="text-white">FAQ</a></li>
+                                        <li class="text-white fs-6"><a href="./gallery.html" class="text-white">gallery</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 fw-bold color" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white fs-5 fw-bold color" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex gap-3">
+                    <i class="fa-solid fa-magnifying-glass text-white mt-2 fs-3"></i>
+                    <button
+                        class="border-0  py-2 px-4 bg-danger text-white fw-bold fs-6 button-1 d-sm-block d-none">LET'S
+                        TALK</button>
+                    <button class="btn text-white fs-3 d-lg-none d-flex" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+<!-- testimonials -->
+<section class="p-100 faq-img mt-5">
+    <div class="container ">
+        <div>
+            <p class="text-white fs-1 text-center fw-bold">Frequently asked question</p>
+            <p class="text-white fs-5 fw-bold text-center mt-4">Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official <br> modeserunt mollit anim id est 20 years experience.</p>
+        </div>
+        <div class="">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" >
+                <ol class="breadcrumb d-flex justify-content-center mt-5">
+                  <li class="breadcrumb-item text-white fs-6">Home</li>
+                  <li class="breadcrumb-item active text-white fs-6" aria-current="page">testimonials</li>
+                </ol>
+              </nav>
+        </div> 
+
+    </div>
+</section>
+    <section class="p-100 testimonials-img mt-5">
+        <div>
+            <p class="text-danger fs-6 text-center">Testimonials</p>
+            <h2 class="font-size-1 text-white text-center fw-bold lh-lg font-style">Customers <span>reviews..
+                </span>
+            </h2>
+        </div>
+        <div class="container">
+            <div class="swiper mySwiper ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_4.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-10">
+                        <span>
+                            <i class="fa-solid fa-quote-left fs-1"></i>
+                        </span>
+                        <p class="text-white fs-6 mt-3">Capitalize on low hanging fruit to identify a ballpark value
+                            added activity to beta test. Override the digital divide with additional clickthroughs
+                            from DevOps. Nanotechnology immersion along the information highway.</p>
+                        <div class="d-flex gap-4">
+                            <div class="mt-2">
+                                <img src="./assets/images/test_1.jpg" alt="" class="rounded-circle circle-1">
+                            </div>
+                            <div class="test-name mt-3">
+                                <h6 class="text-white fs-6">Mike Hotten</h6>
+                                <h6 class="text-white lh-lg mb-5">CEO, Brick Consulting</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="bg-img p-100 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <img src="./assets/images/logo_lp (1).png" alt="" width="150px">
+                        </div>
+                        <div>
+                            <p class="text-white mt-4 fs-6">Lorem ipsum dolor sit amet, consec <br> tetur adipiscing elit,
+                                sed do eiusmod <br> tempor in cididunt ut labore.</p>
+                            <p class="text-white mt-4 fs-6">Opening Hours : Monday – Sat: 9am <br> to 6pm</p>
+                        </div>
+                        <div class="d-flex gap-3 mt-4 ">
+                            <i class="fa-brands fa-facebook-f fs-5 icon-1"></i>
+                            <i class="fa-brands fa-twitter fs-5 icon-1"></i>
+                            <i class="fa-brands fa-pinterest-p fs-5 icon-1"></i>
+                            <i class="fa-brands fa-instagram fs-5 icon-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">CONTACT INFO</p>
+                        </div>
+                        <div class=" mt-4 ">
+                            <div class="gap-2 d-flex">
+                                <i class="fa-solid fa-location-dot text-danger fs-4 mt-2"></i>
+                                <p class="text-white fs-6">Ta-134/A, Gulshan Badda Link <br> Rd, Dhaka</p>
+                            </div>
+                            <div class="gap-2 d-flex mt-4">
+                                <i class="fa-solid fa-phone text-danger fs-4 mt-2"></i></i>
+                                <p class="text-white fs-6">(+880)155 69569 365
+                                    <br> (+880)155 69569 366
+                                </p>
+                            </div>
+                            <div class="gap-2 d-flex mt-4">
+                                <i class="fa-regular fa-envelope  text-danger fs-4 mt-2"></i>
+                                <p class="text-white fs-6">support@rstheme.com
+                                    <br>infoname@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="">
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">OUR SERVICES</p>
+                        </div>
+                        <div class="mt-4">
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name">General Construction</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Property Maintenence</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Project Management</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Virtual design & Build</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Preconstruction</p>
+                            </div>
+                            <div class="mt-2 d-flex fs-6 gap-2 ">
+                                <i class="icon-2 fa-solid fa-chevron-right fs-6 text-danger"></i>
+                                <p class=" fs-6 footer-name ">Design Build</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <div class="mt-2">
+                            <p class="text-white fs-5 fw-bold">NEWSLETTER</p>
+                        </div>
+                        <p class="text-white fs-6 mt-3">Tetur adipiscing elit, sed do eiusmod <br> tempor in cididunt ut
+                            labore.</p>
+
+                        <input class="px-3 py-2 rounded-0 fs-6 text-white mt-3 bg-blue border-0"
+                            placeholder="enter your email">
+                        <button class="text-white  border-0  button-more mt-2 px-5 py-2">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script>
+        
+        /* AUTHOR LINK */
+        $('.about-me-img').hover(function () {
+            $('.authorWindowWrapper').stop().fadeIn('fast').find('p').addClass('trans');
+        }, function () {
+            $('.authorWindowWrapper').stop().fadeOut('fast').find('p').removeClass('trans');
+        });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+        })
+    </script>
+</body>
+
+</html>

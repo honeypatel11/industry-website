@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,10 @@
     <!-- aos -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-     <!-- header section -->
-     <header class="position-sticky z-3 top-0">
+    <!-- header section -->
+    <header class="position-sticky z-3 top-0">
         <div class="container">
             <nav class="navbar align-items-center navbar-expand-lg bg-black ">
                 <div class="">
@@ -36,17 +38,17 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white fs-5 fw-bold color" href="./about.html">About</a>
+                                <a class="nav-link text-white fs-5 fw-bold color" href="">About</a>
                             </li>
                             <li class="nav-item">
                                 <div class="d-flex">
-                                    <a class="nav-link text-white fs-5 fw-bold color" href="services.html">Services</a>
+                                    <a class="nav-link text-white fs-5 fw-bold color" href="">Services</a>
                                    
                                 </div>
                             </li>
                             <li class="nav-item page">
                                 <div class="d-flex position-relative">
-                                    <a class="nav-link text-white fs-5 fw-bold color" href="pages.html">Pages</a>
+                                    <a class="nav-link text-white fs-5 fw-bold color" href="">Pages</a>
                                    
                                     <ul class="bg-danger dropdown-list">
                                         <li class="text-white fs-6"><a href="./testimonials.html" class="text-white">testimonials</a></li>
@@ -76,73 +78,71 @@
             </nav>
         </div>
     </header>
-    <!-- faq section -->
-    <section class="p-100 faq-img mt-5">
+    <section class="blog-img mt-5 position-relative d-flex align-items-center">
+        <div class="container position-absolute">
+            <h1 class=" fs-1 text-white  text-center fw-bold">Blog</h1>
+            <p class="text-white fs-5 fw-bold text-center mt-3">Excepteur sint occaecat cupidatat non proident, sunt in
+                coulpa qui official <br>modeserunt mollit anim id est 20 years experience.</p>
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb hw align-content-center d-flex justify-content-center mt-4 ">
+                        <li class="breadcrumb-item text-white fs-5 ">Home</li>
+                        <li class="breadcrumb-item active text-white  fs-5" aria-current="page">Blog</li>
+                    </ol> 
+                </nav>
+        </div>
+
+    </section>
+    <!-- blog section -->
+    <section class="p-100 mt-2">
         <div class="container ">
             <div>
-                <p class="text-white fs-1 text-center fw-bold">Frequently asked question</p>
-                <p class="text-white fs-5 fw-bold text-center mt-4">Excepteur sint occaecat cupidatat non proident, sunt in coulpa qui official <br> modeserunt mollit anim id est 20 years experience.</p>
+                <img src="./assets/images/post_03.jpg" alt="" width="800px">
             </div>
-            <div class="">
-                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" >
-                    <ol class="breadcrumb d-flex justify-content-center mt-5">
-                      <li class="breadcrumb-item text-white fs-6">Home</li>
-                      <li class="breadcrumb-item active text-white fs-6" aria-current="page">Faq</li>
-                    </ol>
-                  </nav>
-            </div> 
-
+            <div>
+                <p class=" fs-2 fw-bold mt-3 blog-hover">Panels with a Sleek, Low-Profile Design</p>
+            </div>
+            <div>
+                <p class="text-dark mt-3 fs-6 fw-bold">The brand has responded by partnering with skincare experts on
+                    social and web content, providing <br> ingredient deep-dives and re-sharing followers’ tips and
+                    tricks on social media. The trand has responded by <br> partnering with skincare experts on social
+                    and web content, providing ingredient deep-dives and...</p>
+            </div>
+            <div>
+                <div class="mt-5">
+                    <img src="./assets/images/post_01.jpg" alt="" width="800px">
+                </div>
+                <div>
+                    <p class=" fs-2 fw-bold mt-3 blog-hover">Seamless Integration with Powerwall</p>
+                </div>
+                <div>
+                    <p class="text-dark mt-3 fs-6 fw-bold">The brand has responded by partnering with skincare experts
+                        on social and web content, providing <br> ingredient deep-dives and re-sharing followers’ tips
+                        and tricks on social media. The trand has responded by <br> partnering with skincare experts on
+                        social and web content, providing ingredient deep-dives and...</p>
+                </div>
+            </div>
+            <div>
+                <div class="mt-5">
+                    <img src="./assets/images/post_02.jpg" alt="" width="800px">
+                </div>
+                <div>
+                    <p class=" fs-2 fw-bold mt-3 blog-hover">Power your Home with Beautiful Solar</p>
+                </div>
+                <div>
+                    <p class="text-dark mt-3 fs-6 fw-bold">The brand has responded by partnering with skincare experts
+                        on social and web content, providing <br> ingredient deep-dives and re-sharing followers’ tips
+                        and tricks on social media. The trand has responded by <br> partnering with skincare experts on
+                        social and web content, providing ingredient deep-dives and...</p>
+                </div>
+            </div>
         </div>
+
+
+
     </section>
-    <section>
-        <div class="container">
-            <div class="accordion mt-5" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-    </section>
-  
-
-
-
 
     <!-- footer section -->
-    <footer class="bg-img p-100 mt-5">
+    <footer class="bg-img p-100 mt-2">
         <div class="container">
             <div class="row">
                 <div class="col-3">
@@ -151,7 +151,8 @@
                             <img src="./assets/images/logo_lp (1).png" alt="" width="150px">
                         </div>
                         <div>
-                            <p class="text-white mt-4 fs-6">Lorem ipsum dolor sit amet, consec <br> tetur adipiscing elit,
+                            <p class="text-white mt-4 fs-6">Lorem ipsum dolor sit amet, consec <br> tetur adipiscing
+                                elit,
                                 sed do eiusmod <br> tempor in cididunt ut labore.</p>
                             <p class="text-white mt-4 fs-6">Opening Hours : Monday – Sat: 9am <br> to 6pm</p>
                         </div>
@@ -237,8 +238,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
