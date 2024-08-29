@@ -5227,9 +5227,9 @@ fieldset:disabled .btn {
     width: 100%;
     padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
     font-size: 1rem;
-    color: var(--bs-accordion-btn-color);
+    color: black;
     text-align: left;
-    background-color: var(--bs-accordion-btn-bg);
+    background-color: #ffb704;
     border: 0;
     border-radius: 0;
     overflow-anchor: none;
@@ -5289,6 +5289,7 @@ fieldset:disabled .btn {
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
     border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color)
+    
 }
 
 .accordion-item:first-of-type {
@@ -5378,7 +5379,7 @@ fieldset:disabled .btn {
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
     padding-right: var(--bs-breadcrumb-item-padding-x);
-    color: var(--bs-breadcrumb-divider-color);
+    color: white;
     content: var(--bs-breadcrumb-divider, "/")
 }
 
